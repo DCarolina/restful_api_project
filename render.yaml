@@ -3,4 +3,4 @@ services:
     name: restful-api-jhdc
     buildCommand: npm run build
     startCommand: npm start
-runtime: node
+    runtime: node
