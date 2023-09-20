@@ -1,4 +1,5 @@
 services:
-  - name: restful-api-jhdc
+  - type: web
+    name: restful-api-jhdc
     buildCommand: npm run build
     startCommand: npm start
