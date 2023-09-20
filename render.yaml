@@ -2,4 +2,4 @@ services:
   - name: restful-api-jhdc
     type: web
     buildCommand: npm run build
-    startCommand: npm run migrate && npm start
+    startCommand: npm run migrate
