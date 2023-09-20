@@ -1,9 +1,12 @@
-services:
+web_services:
   - name: restful-api-jhdc
+    type: web
     buildCommand: npm run build
-    startCommand: npm starts
+    startCommand: npm start
 
     # Comandos de pre-despliegue
     preBuildCommands:
       - npm install
       - npm run migrate # Comando de migración aquí
+
+      
