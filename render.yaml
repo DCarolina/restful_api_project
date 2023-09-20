@@ -1,7 +1,7 @@
 services:
   - name: restful-api-jhdc
     buildCommand: npm run build
-    startCommand: npm start
+    startCommand: npm starts
 
     # Comandos de pre-despliegue
     preBuildCommands:
