@@ -1,4 +1,4 @@
-web_services:
+services:
   - name: restful-api-jhdc
     type: web
     buildCommand: npm run build
