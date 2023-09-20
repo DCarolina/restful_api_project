@@ -1,0 +1,9 @@
+services:
+  - name: my-app
+    buildCommand: npm run build
+    startCommand: npm start
+
+    # Comandos de pre-despliegue
+    preBuildCommands:
+      - npm install
+      - npm run migrate # Comando de migración aquí
